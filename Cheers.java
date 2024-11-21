@@ -10,12 +10,14 @@ public class Cheers {
                 String add;
                 char a = name.charAt(i);  
                 if (check.indexOf(a) >= 0) {
+                System.out.println("Give me an " + a + ": " + a + "!") ;
+
                     add = "an";  
                 } else {
+                     System.out.println("Give me a  " + a + ": " + a +"!");  
                     add = "a";   
                 }
     
-                System.out.println("Give me" + " " + add + " " + a + ":" + " " + a + "!");
             }
     
           
